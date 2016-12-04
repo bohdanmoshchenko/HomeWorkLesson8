@@ -1,0 +1,3 @@
+geek_hub_blog_homepage:
+    path:     /
+    defaults: { _controller: GeekHubBlogBundle:Default:index }

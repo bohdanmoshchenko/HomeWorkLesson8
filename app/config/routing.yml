@@ -1,0 +1,7 @@
+geek_hub_blog:
+    resource: "@GeekHubBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

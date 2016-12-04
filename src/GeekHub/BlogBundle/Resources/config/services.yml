@@ -1,0 +1,4 @@
+services:
+#    geek_hub_blog.example:
+#        class: GeekHub\BlogBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

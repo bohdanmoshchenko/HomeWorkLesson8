@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
     <head>
         {% block head %}
             <title>{% block title %}{% endblock %}</title>
@@ -7,5 +7,6 @@
     </head>
     <body>
     <div id="content"><h1>{% block content %}{% endblock %}</h1></div>
+    <div id="footer"> {% block footer %} {% endblock %} </div>
     </body>
 </html>

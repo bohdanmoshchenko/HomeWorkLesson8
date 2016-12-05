@@ -13,3 +13,7 @@ geek_hub_blog_inheritance:
 geek_hub_blog_second_inheritance:
         path: /secinh
         defaults: { _controller: GeekHubBlogBundle:Default:secondInheritance }
+
+geek_hub_blog_second_filters:
+        path: /filt
+        defaults: { _controller: GeekHubBlogBundle:Default:twigFilters }

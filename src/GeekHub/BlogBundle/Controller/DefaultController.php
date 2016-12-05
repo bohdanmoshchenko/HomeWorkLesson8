@@ -41,10 +41,23 @@ class DefaultController extends Controller
         return $this->render('@GeekHubBlog/Default/inheritance.html.twig');
     }
 
+    /**
+     * @return Response
+     */
     public function secondInheritanceAction()
     {
         return $this->render('@GeekHubBlog/Default/secondInheritance.html.twig', [
             'text' => 'some footer',
+        ]);
+    }
+
+    /**
+     * @return Response
+     */
+    public function twigFiltersAction()
+    {
+        return $this->render('@GeekHubBlog/Default/twigFilters.html.twig', [
+            'name' => 'some string',
         ]);
     }
 }

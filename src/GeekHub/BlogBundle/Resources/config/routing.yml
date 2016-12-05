@@ -1,3 +1,15 @@
 geek_hub_blog_homepage:
-    path:     /
+    path :     /
     defaults: { _controller: GeekHubBlogBundle:Default:index }
+
+geek_hub_blog_controlstructures:
+    path: /cs
+    defaults: { _controller: GeekHubBlogBundle:Default:controlStructures }
+
+geek_hub_blog_inheritance:
+        path: /inh
+        defaults: { _controller: GeekHubBlogBundle:Default:inheritance }
+
+geek_hub_blog_second_inheritance:
+        path: /secinh
+        defaults: { _controller: GeekHubBlogBundle:Default:secondInheritance }
